@@ -10,11 +10,11 @@ namespace Grocery.Core.Data.Repositories
         public GroceryListItemsRepository()
         {
             groceryListItems = [
-                new GroceryListItem(1, 1, 1, 3),
-                new GroceryListItem(2, 1, 2, 1),
-                new GroceryListItem(3, 1, 3, 4),
-                new GroceryListItem(4, 2, 1, 2),
-                new GroceryListItem(5, 2, 2, 5),
+                new GroceryListItem(1, 1, 1, "Melk", 3),
+                new GroceryListItem(2, 1, 2, "Kaas", 1),
+                new GroceryListItem(3, 1, 3, "Brood", 4),
+                new GroceryListItem(4, 2, 1, "Cornflakes", 2),
+                new GroceryListItem(5, 2, 2, "Ei", 5),
             ];
         }
 
